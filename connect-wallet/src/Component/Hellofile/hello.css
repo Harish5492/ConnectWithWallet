@@ -1,0 +1,50 @@
+.btnsss{
+    display: inline-flex;
+}
+
+.button{
+    margin-right: 5px;
+}
+
+.dropdown {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.dropdown .btn {
+    width: 120px;
+}
+
+.dropdown-toggle {
+    position: relative;
+    right: 0;
+    top: 0;
+    height: 100%; /* Ensures the dropdown toggle button fills the height of the parent */
+}
+#dropdownMenuButton{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    align-items: center;
+    width: 130px;
+}
+/* CSS to style the dropdown menu */
+.dropdown .btn-secondary,
+.dropdown-menu {
+    background-color: #6c757d; /* Set background color to match the dropdown button */
+}
+
+.dropdown-menu .dropdown-item {
+    color: #fff; /* Set text color to black */
+}
+.dropdown-menu.show{
+    background-color: #6c757d;
+
+}
+
+/* Hover effect for dropdown items */
+.dropdown-menu .dropdown-item:hover {
+    background-color: #343a40; /* Change background color on hover to dark grey */
+}
